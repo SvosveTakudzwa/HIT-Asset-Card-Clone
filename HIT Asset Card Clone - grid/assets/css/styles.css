@@ -1,0 +1,82 @@
+/*Beginning of whole doc styling*/
+body{
+  font-size: 16px;
+}
+.case{
+    text-transform: uppercase;
+}
+
+/*Beginning of form styling*/
+
+.form{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 620px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin: auto;
+    height: 320px;
+ }
+
+ input:focus{
+  outline: none;
+ }
+
+/*.float-container {
+    border: 3px solid #fff;
+    padding: 8px;
+}*/
+
+.float-child {
+    width: 45%;
+    float: left;
+    padding: 0 15px;
+}
+
+input[type=text] {
+    width: 95%;
+    padding: 3px 2px;
+    margin: 3px ;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #FFA500;
+  }
+
+input[type=date] {
+    width: 95%;
+    padding: 3px 2px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #FFA500;
+  }
+
+input[type=tel] {
+    width: 95%;
+    padding: 3px 2px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #FFA500;
+  }
+
+.sig{
+    width: 100%;
+  }
+
+.fnme{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.crdSerialNo{
+    color: red;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.float-child img{
+  margin: 10px auto 15px auto;
+}

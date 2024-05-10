@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<title>Asset Card</title>
+	<meta name="author" content="Takudzwa A. Svosve">
+	<link rel="icon" href="assets/images/HIT_logo.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <div class="form">
+        <div class="float-container">
+          <div class="float-child">
+            <div class="green">
+                <h1 class="case">asset card</h1>
+                <label for="sname">Card Holder's Name</label><br>
+                <div class="fnme">
+                    <input type="text" id="fname" name="sname" required placeholder="name(s)">
+                    <input type="text" id="lname" name="sname" required placeholder="surname">
+                </div>
+                <label for="regnum">Student Registration Number</label><br>
+                <input type="text" id="regnum" name="regnum" required><br>
+                <label for="mobilenum">Mobile Number</label><br>
+                <input type="tel" id="mobilenum" name="mobilenum" min="0" maxlength="10" required placeholder="e.g 0786450100"><br>
+                <label for="itemdesc">Item description</label><br>
+                <input type="text" id="itemdesc" name="itemdesc" required><br>
+                <label for="model">Model</label><br>
+                <input type="text" id="model" name="model" required><br>
+            </div>
+          </div>
+          
+          <div class="float-child">
+            <div class="blue">
+                <div class="logo">
+                    <img src="assets/images/HIT_logo.png" alt="Harare Institute of Technology Logo" width="250" height="95">
+                </div>
+                <label for="snum">Serial Number</label><br>
+                <input type="text" id="snum" name="snum" required><br>
+                <label for="secname">Security Official:</label>
+                <input type="text" id="secname" name="secname" required><br>
+                <label for="regdate">Date:</label>
+                <input type="date" id="regdate" name="regdate"><br>
+                <div class="fnme">
+                    <label for="ssig">Student Signature:</label>
+                    <input type="text" class="sig" name="ssig" required><br>
+                    <label for="secsig">Official Signature:</label>
+                    <input type="text" class="sig" name="secsig" required><br>
+                </div>
+                <p class="crdSerialNo">No: 123456789</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+</body>
+</html>
